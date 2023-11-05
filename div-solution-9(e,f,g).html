@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 9-e */
+        .tweet
+        {
+            width:370px;
+            height:50px;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+            padding-left: 15px;
+            padding-right:1px;
+            border-radius: 8px;
+            padding-top: 12px;
+            padding-bottom:8px;
+            margin-bottom: 29px;
+
+        }
+        .cat-image
+        {
+            width:50px;
+            height:50px;
+            object-fit:cover;
+            object-position: center;
+            border-radius:25px;
+            vertical-align: middle;
+        }
+        .textarea
+        {
+            vertical-align: middle;
+            padding-left: 15px;
+            padding-right: 30px;
+            padding-top:15px;
+            padding-bottom:15px;
+            border:rgba(0, 0, 0, 0.027);
+            border-radius: 20px;
+            border-style: solid;
+            border-width:1px;
+        }
+        .tweet-button
+        {
+            color:white;
+           background-color:rgb(29, 161, 242);
+           border: none;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           margin-left: 3px;
+           border-radius: 20px;
+           width:70px;
+           margin-right: 0px;
+        }
+        /* 9-f */
+        .profile1
+        {
+            width:130px;
+            height:169px;
+            display:block;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.39);
+        }
+        .profile1a,.profile2,.profile3
+        {    width:130px;
+            height:169px;
+            display:inline-block;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.39);
+            vertical-align: middle;
+            margin-top: 20px;
+
+        }
+        .profile-picture1,.profile-picture3
+        {
+            width:130px;
+            object-position:top;
+            object-fit: contain;
+            padding-bottom: 2px;
+            margin-bottom: 1px;
+        }
+        .profile-picture2
+        {
+            width:130px;
+            object-position:top;
+            object-fit: contain;
+            padding-bottom: 4px;
+            margin-bottom: 1px;
+        }
+        .name1,.name2,.name3
+        {
+            margin-top: 1px;
+            font-size: 15px;
+            padding-top: 2px;
+            padding-left: 5px;
+            padding-top: 0px;
+            display:inline-block;
+            font-family: Arial;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+        .friend-stat1, .friend-stat2, .friend-stat3
+        {
+            font-family:Arial;
+            font-size: 10px;
+            margin-top:3px;
+            padding-left: 5px;
+        }
+        .add-friend-button1,.add-friend-button2,.add-friend-button3
+        {
+            padding-left: 4px;
+            margin-left: 4px;
+            background-color:rgb(29, 161, 242);
+            color:white;
+            padding-bottom:5px;
+            padding-top: 5px;
+            padding-left:10px;
+            padding-right:15px;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 0px;
+
+        }
+      
+    </style>
+</head>
+<body>
+    <!-- 9-e -->
+    <div class="tweet">
+        <img src="cat.jpg" class="cat-image">
+        <input type="text" class="textarea"  placeholder="What's happening?">
+        <button class="tweet-button">Tweet</button>
+    </div>
+    <!-- 9-f -->
+    <div class="profile1">
+        <img src="cat.jpg" class="profile-picture1">
+        <p class="name1">
+            Oliver
+        </p>
+        <p class="friend-stat1">2 Mutual Friend</p>
+        <button class="add-friend-button1">Add Friend</button>
+    </div>
+    <!-- 9-g -->
+    <div class="profile1a">
+        <img src="cat.jpg" class="profile-picture1">
+        <p class="name1">
+            Oliver
+        </p>
+        <p class="friend-stat1">2 Mutual Friend</p>
+        <button class="add-friend-button1">Add Friend</button>
+    </div>
+    <div class="profile2">
+        <img src="cat2.jpg" class="profile-picture2">
+        <p class="name2">
+            Mimi
+        </p>
+        <p class="friend-stat2">3 Mutual Friend</p>
+        <button class="add-friend-button2">Add Friend</button>
+    </div>
+    <div class="profile3">
+        <img src="dog.jpg" class="profile-picture3">
+        <p class="name3">
+            Rex
+        </p>
+        <p class="friend-stat3">4 Mutual Friend</p>
+        <button class="add-friend-button3">Add Friend</button>
+    </div>
+
+</body>
+</html>
