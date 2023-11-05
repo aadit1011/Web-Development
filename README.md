@@ -1,2 +1,3 @@
 # Web-Development
-These are mine initial practices for Web Development.
+These are my initial practices for Web Development . I have solved questions from the SuperSimpleDev Course practice set..... 
+Author-Aadit Sharma aka Bardan Babu Shiwakoti
