@@ -1,0 +1,99 @@
+.container
+{
+     display:flex;
+     flex-direction:column;
+     width:300px;
+     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.658);
+}
+.home-grid
+{
+     display:grid;
+     grid-template-columns: 80% 1fr;
+     column-gap: 4px;
+     vertical-align: middle;
+     row-gap: 10px;
+     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.329);
+}
+.notification-grid
+{
+     display:grid;
+     grid-template-columns: 80% 1fr;
+     column-gap: 4px;
+     vertical-align: middle;
+     row-gap: 10px;
+     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.329);
+}
+.messages-grid
+{
+     display:grid;
+     grid-template-columns: 80% 20%;
+     column-gap: 4px;
+     vertical-align: middle;
+     row-gap: 10px;
+     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.329);
+}
+.home
+{
+     font-size: 16px;
+     font-family: fantasy;
+     font-weight: 300;
+     font-style: oblique;
+     padding-left: 6px;
+     padding-top: 0px;
+   
+
+}
+.message
+{
+     font-size: 16px;
+     font-family: fantasy;
+     font-weight: 300;
+     font-style: oblique;
+     padding-left: 6px;
+     padding-top: 0px;
+}
+.notification
+{
+     font-size: 16px;
+     font-family: fantasy;
+     font-weight: 300;
+     font-style: oblique;
+     padding-left: 6px;
+     padding-top: 0px;
+}
+.home-button-container,.notification-button-container,.message-button-container
+{
+     display:flex;
+     vertical-align: middle;
+     align-items:center;
+}
+.home-button
+{
+     background-color: rgb(4, 104, 138);
+     border: none;
+     border-radius: 10px;
+     padding-left: 9px;
+     margin-left: 8px;
+     padding-right:9px;
+     padding-top: 3px;
+}
+.notification-button
+{
+     background-color: rgb(4, 104, 138);
+     border: none;
+     border-radius: 10px;
+     padding-left: 9px;
+     margin-left: 15px;
+     padding-right:9px;
+     padding-top: 3px;
+}
+.message-button
+{
+     background-color: rgb(4, 104, 138);
+     border: none;
+     border-radius: 10px;
+     padding-left: 9px;
+     margin-left: 15px;
+     padding-right:9px;
+     padding-top: 3px;
+}
