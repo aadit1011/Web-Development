@@ -2,14 +2,14 @@
 {
      display:flex;
      height:40px;
-     flex-direction:row;
+     flex-direction: row;
 }
 .left-section
 {
-     display:flex;
-     width:200px;
+     display: flex;
+     width:250px;
      align-items: center;
-     margin-right: 200px;
+     margin-right: 100px;
 }
 .middle-section
 {
