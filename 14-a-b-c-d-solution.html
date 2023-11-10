@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          body
+          {
+               height:4000px;
+          }
+          .fixed-button
+          {
+               border:3px solid black;
+               position:fixed;
+               bottom:30px;
+               right:200px;
+          }
+          .right-bar
+          {
+               position:fixed;
+               top:0px;
+               right:0px;
+               background-color:rgb(14, 148, 14);
+               color:white;
+               width:200px;
+               bottom:0px;
+          }
+          .whole-page
+          {
+               background-color: rgba(0, 0,0,0.8);
+               top:0px;
+               bottom:0px;
+               right:0px;
+               left:0px;
+               position:fixed;
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content:center;
+               
+          }
+          .container
+          {
+               background-color: white;
+               display: flex;
+               flex-direction: column;
+               width:300px;
+               height:100px;
+               padding: 10px;
+               border-radius:10px;
+          
+          }
+          .title
+          {
+               font-size: 25px;
+               font-weight: bold;
+               font-family: 'Times New Roman', Times, serif;
+          }
+          .content
+          {
+               font-size: 15px;
+               font-weight: 550;
+               font-family: 'Times New Roman', Times, serif;
+               margin-top: 7px;
+          }
+          .close-button
+          {
+               margin-top: 10px;
+               font-weight: 700;
+          }
+     </style>
+</head>
+<body>
+     <div class="fixed-button">
+          Fixed-button on page.
+     </div>
+     <div class="right-bar">Right Bar</div>
+     </figure>
+     <div class="whole-page">
+          <div class="container">
+               <div class="title">Modal Title</div>
+               <div class="content">This is a modal</div>
+               <div class="button">
+                    <button class="close-button">Close</button>
+               </div>
+          </div>
+     </div>
+</body>
+</html>
