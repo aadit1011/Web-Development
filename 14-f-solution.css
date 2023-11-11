@@ -1,0 +1,75 @@
+body
+{
+     height:1000px;
+     padding-left:40%;
+}
+.container 
+{
+     display: flex;
+     flex-direction: column;
+     padding-top:10px;
+     padding-left: 6px;
+     background-color: gray;
+     width:40%;
+     top:0px;
+     position:fixed;
+     bottom:0px;
+     left:80px;
+}
+.side-bar
+{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     position:fixed;
+     top:0px;
+     bottom:0px;
+     left:0px;
+     width:40%;
+     padding-left: 10px;
+     background-color:rgba(0, 0, 0, 0.63) ;
+}
+.img1-container,.img2-container,.img3-container
+{
+     height:60px;
+     width:60px;
+     margin-top: 10px;
+     object-fit: cover;
+     object-position: center;
+}
+.cat1,.cat2,.dog
+{
+     width:60px;
+     height:60px;
+     border:none;
+     border-radius: 30px;
+}
+.text-container 
+{
+     position:fixed;
+     top:0px;
+     left:90px;
+     bottom:0px;
+     background-color: rgba(0, 0, 0, 0.205);
+     width:300px;
+
+}
+.row1
+{
+     font-size: 25px;
+     margin-bottom: 10px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:white;
+     padding-left: 6px;     
+     display: flex;
+     justify-content: space-between;
+     padding-right: 15px;
+}
+.row2,.row3,.row4
+{
+     font-size:25px;
+     margin-bottom: 10px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:white;
+     padding-left: 6px;
+}
