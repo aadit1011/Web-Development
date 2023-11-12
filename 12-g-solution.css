@@ -3,7 +3,7 @@ p,button{
 }
 .container
 {
-     display:flex;
+     display: flex;
      flex-direction: row;
      flex-wrap: wrap;
      width:400px;
