@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          .click-button
+{
+     background-color: springgreen;
+     padding:5px 15px;
+     border:1px solid black;
+     border-radius: 10px;
+     color:black;
+     transition:calc(background-color);
+     transition-duration: 0.25s;
+     transition-timing-function: ease;
+     transition-delay: 0.1s;
+}
+.click-button:hover
+{
+     background-color: rgb(9, 76, 107);
+     padding: 10px 30px;
+     transition: background-color 0.2s,padding 0.2s;
+     transition-timing-function: ease-in-out;
+     transition-delay: 0s;
+     transition: duration 0.5em;
+}
+.click-button:active
+{
+     background-color: rgb(112, 20, 112);
+     color:red;
+     transition: background-color 0.2s,color 0.3s;
+     transition-timing-function: ease-in-out;
+}
+     </style>
+</head>
+<body>
+     <button class="click-button">Click Me</button>
+</body>
+</html>
