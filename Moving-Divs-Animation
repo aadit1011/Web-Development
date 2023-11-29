@@ -42,10 +42,11 @@
           .image
           {
               animation:colorChanger 8s 1s infinite; 
+                animation-timing-function: linear;
               text-transform: uppercase;
               width: 100px;
               height:100px;  
-              position:relative;
+              position: relative;
               background-color: black;  
           }
           .image
