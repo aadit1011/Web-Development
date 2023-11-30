@@ -1,0 +1,18 @@
+@keyframes truckMove {
+     0%
+     {
+          left:-20%;
+     }
+     100%
+     {
+          left:110%;
+     }
+}
+.image-container
+{
+     position:fixed;
+     bottom:0px;
+     left:-110%;
+     animation: truckMove 4s 0s infinite  linear;
+}
+
