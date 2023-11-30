@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          @keyframes rotatingDiv {
+               0%
+               {
+                    left:-20%;
+               }
+               100%
+               {
+                    left:120%;
+               }
+          }
+@keyframes rotate {
+               0%
+               {
+                    transform: rotate(0deg);
+               }
+               100%
+               {
+                    transform:rotate(360deg);
+               }
+          }
+          .wheel
+          {
+               position:fixed;
+               left:-20%;
+               bottom:0px;
+               animation: rotatingDiv 5s 0s infinite linear;
+          }
+          .rotate
+          {
+               animation:rotate 1s 0s infinite linear;
+          }
+     </style>
+</head>
+<body>
+  <div class="wheel">
+          <img src="favicon.jpg" class="rotate">
+     </div>
+</body>
+</html>
