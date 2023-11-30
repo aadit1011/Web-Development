@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+         @keyframes loading {
+            0% {       
+            }
+            50% {
+               padding-top:40px;
+                padding-bottom: 40px;
+            }
+            100% {
+            }
+        }
+
+          .container
+          {
+               width:120px;
+               height:250px;
+               display:flex;
+               flex-direction: row;
+               justify-content: space-around;
+               position:fixed;
+               align-items: center;
+               margin-left:20%;
+               box-shadow: 0px 0px 6px grey;
+          }
+          .item1
+          {
+               background-color: aqua;
+               width:20px;
+               height:150px;
+               animation:loading 2s 0s infinite linear; 
+          }
+          .item2
+          {
+               width:20px;
+               background-color:yellow;
+               height:150px;
+               animation:loading 2s 500ms infinite linear; 
+          }
+          .item3
+          {
+               width:20px;
+               background-color: violet;
+               height:150px;
+               animation:loading 2s 0s infinite linear; 
+          }
+          .item4
+          {
+               width:20px;
+               background-color: tomato;
+               height:150px;
+               animation:loading 2s 500ms infinite linear; 
+          } 
+          body{
+               padding-top:300px;
+          }
+         
+     </style>
+</head>
+<body>
+     <div class="container">
+          <div class="item1"></div>
+          <div class="item2"></div>
+          <div class="item3"></div>
+          <div class="item4"></div>
+     </div>
+    
+</body>
+</html>
