@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          @keyframes sentence {
+
+          0%
+          {
+               left:0%;
+          }
+          100%
+          {
+               left: 85%;
+          }
+          }
+          .moving-text
+          {
+               background-color: rgba(255, 208, 0, 0.747);
+               position: fixed;
+               left:-110%;
+               right:0;
+               bottom:0;
+               font-size: 20px;
+               font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-weight:500;
+               animation: sentence 5s 0s infinite linear;
+               animation-direction: alternate-reverse;
+          }
+     </style>
+</head>
+<body>
+     <div class="moving-line">
+          <span class="moving-text">
+          Be your kind of beautiful
+          </span>
+     </div>
+</body>
+</html>
