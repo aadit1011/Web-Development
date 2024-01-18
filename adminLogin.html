@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="admin-login.css">
+</head>
+<body >
+    <div class="preloader" id="preloader">
+    </div>
+    <div class="heading">
+        <h1 class="login-form-header">ADMIN Login</h1>
+    </div>
+        <div class="login-box"> 
+            <form method="post" class="login-form" action="/"> 
+                <div id="errorMessage" style="color:red; font-size:12px; display: none;">Incorrect username or password</div>
+                <br>
+                       <table>
+                        <tr>
+                            <td>
+                            <label>
+                                Email
+                            </label>
+                            </td>
+                           <td>
+                            <input class="email" type="email" required placeholder="Admin-email" size="20px" name="email">
+                         </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <label>
+                                Password
+                            </label>
+                            </td>
+                            <td>
+                            <input type="password" name="password" class="password" required placeholder="password" minlength="8" size="20px">
+                         </td>
+                        </tr>
+                        </table>
+                        <input type="submit" name="submit" class="button-submit" value="Login">
+                        
+            </form>
+        </div>
+    <script src="loader.js" >
+
+    </script>
+</body>
+</html>

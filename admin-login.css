@@ -1,0 +1,118 @@
+
+*{
+    margin:0;
+    padding:0;
+
+}
+@keyframes blink-form {
+    0%
+    {
+         box-shadow: 0px 0px 6px rgb(0, 0, 0);
+    }
+    25%
+    {
+         box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.623);
+    }
+    50%
+    {
+         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.438);
+    }
+    75%
+    {
+         box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.151);
+    }
+    100%
+    {
+         box-shadow: 0px 0px 6px rgb(0, 0, 0);
+    }
+}
+body{
+      background-image: url("admin-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+.login-box{
+    position:absolute;
+    align-items: center;
+    vertical-align: middle;
+    background-image: transparent;
+    animation:blink-form 2s 0s infinite linear;
+     border-radius: 20px;
+     height:190px;
+     width:280px; 
+     top:30%;
+     left:40%;
+     
+}
+.preloader{
+    background: rgb(255, 255, 255) url("eye.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:30%;
+    top:0;
+    left:0;
+    right:0;
+    height:100vh;
+    z-index:400;
+    position:fixed;
+}  
+.button-submit{
+    position:relative;
+    left:30%;
+    padding:8px 40px;
+    margin-top:5%;
+    background-color: rgb(179, 44, 66);
+    color:white;
+    border:none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: cursive;
+}
+label{
+     font-family:cursive;
+     font-size:20px;
+}
+
+.password::placeholder,.email::placeholder{
+     font-family: fantasy;
+     font-style: italic;
+}
+.login-form{
+     margin-left: 5px;
+}
+.button-submit:hover{
+     opacity:0.7;
+     cursor:pointer;
+     transition-duration:250ms;
+     transition-timing-function: ease-in-out;
+     transition-delay: 0s;
+}
+.button-submit:active{
+     opacity:0.5;
+     transition-duration:250ms;
+     transition-timing-function: ease-in-out;
+     transition-delay: 0s;
+     cursor: pointer;
+}
+input{
+     border-radius: 10px;
+     padding-top:3px;
+     padding-bottom: 3px;
+     padding-left: 5px;
+     border:none;
+     background-color:beige;
+}
+.heading{
+     text-align: center;
+     font-size: 45px;
+     font-family: cursive;
+     font-style: italic;
+     font-weight: 700;
+     text-shadow: 4px 4px gray;
+     letter-spacing: 8px;
+     padding-top: 10px;
+     text-transform: uppercase;
+}
