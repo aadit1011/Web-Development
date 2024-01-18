@@ -1,0 +1,118 @@
+.heading{
+     text-align: center;
+     font-size: 45px;
+     font-family: cursive;
+     font-style: italic;
+     font-weight: 700;
+     text-shadow: 4px 4px gray;
+     letter-spacing: 8px;
+     padding-top: 10px;
+     text-transform: uppercase;
+}
+body{
+      background-color: rgb(216, 13, 98); 
+     overflow: hidden;
+}
+*{
+     margin:0;
+     padding:0;
+}
+.admin-view-container{
+     width: 100%;
+     height: 95%;
+     display: flex;
+     justify-content:space-between;
+     flex-direction: row;
+}
+.button-section{
+     width:20%;
+     margin-left: 5%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.cart-image{
+     width:95%;
+}
+.add-product{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 38px;
+     padding-right: 34px;
+     border:none;
+     border-radius:10px;
+     margin-bottom: 5%;
+     background-color: #CC7178;
+     font-size: 20px;
+     font-family:monospace;
+}
+.view-product{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 32px;
+     padding-right: 32px;
+     border:none;
+     border-radius:10px;
+     margin-bottom: 5%;
+     background-color: #CC7178;
+     font-size: 20px;
+     font-family:monospace;
+}
+.update-product{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 18px;
+     padding-right: 23px;
+     border:none;
+     border-radius:10px;
+     margin-bottom: 5%;
+     background-color: #CC7178;
+     font-size: 20px;
+     font-family:monospace;
+}
+.view-order{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 38px;
+     padding-right: 49px;
+     border:none;
+     border-radius:10px;
+     margin-bottom: 5%;
+     background-color: #CC7178;
+     font-size: 20px;
+     font-family:monospace;
+}
+.image-section{
+     align-items: center;
+     vertical-align: middle;
+     margin-top:5%;
+}
+.add-product:hover,.update-product:hover,.view-product:hover,.view-order:hover{
+      opacity:0.5;
+     cursor:pointer;
+     transition-duration:250ms;
+     transition-timing-function: ease-in-out;
+     transition-delay: 0s;
+
+}
+.add-product:active,.update-product:active,.view-product:active,.view-order:active{
+     background-color: #31081F;
+     cursor:pointer;
+     transition-duration:250ms;
+     transition-timing-function: ease-in-out;
+     transition-delay: 0s;
+     
+}
+.preloader{
+     background: rgb(255, 255, 255) url("eye.gif");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:30%;
+     top:0;
+     left:0;
+     right:0;
+     height:100vh;
+     z-index:400;
+     position:fixed;
+ }  

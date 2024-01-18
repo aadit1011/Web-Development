@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >WELCOME ADMIN</title>
+  <link rel="stylesheet" href="adminPage.css">
+</head>
+<body>
+  <div class="preloader" id="preloader">
+  </div>
+      <div class="heading">
+        <h1>WELCOME ADMIN </h1>
+      </div>
+        <div class="admin-view-container">
+          <div class="image-section">
+            <img src="cart2.png" alt="Image" class="cart-image">
+          </div>
+          <div class="button-section">
+        <div class="button1-section">
+          <button onclick="redirectTo('/adminPage/productInsert')" id="addProduct" class="add-product">Add Product</button>
+        </div>
+        <div class="button2-section">
+          <button onclick="redirectTo('/adminPage/productView')" id="viewProduct" class="view-product">View Product</button>
+        </div>
+       <div class="button3-section">
+        <button onclick="redirectTo('/adminPage/productUpdate')" id="updateProduct" class="update-product">Update Product</button>
+       </div>
+        <div class="button4-section">
+          <button onclick="redirectTo('/adminPage/viewOrder')" id="viewOrder" class="view-order"> View Order</button>
+      </div>
+        </div>
+      <div class="image-section">
+        <img src="cart2.png" alt="CART" srcset="" class="cart-image">
+      </div>
+      </div>
+        <script>
+            function redirectTo(path) {
+              window.location.href = path;
+            }
+          </script>
+          <script src="loader.js"></script>
+    </body>
+</body>
+</html>
